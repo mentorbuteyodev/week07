@@ -31,7 +31,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.exc import OperationalError
 from sqlalchemy.orm import Session
 
-# -- Extra imports
+# -- Extra imports Change the imports
 from .db import Base, engine, get_db
 from .models import Product
 from .schemas import ProductCreate, ProductResponse, ProductUpdate, StockDeductRequest
